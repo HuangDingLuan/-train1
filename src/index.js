@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import axios from 'axios';
 import * as ReactBootstrap from 'react-bootstrap';
 import 'lazysizes'
+import 'bootstrap/dist/css/bootstrap.min.css'
 var ListGroup = ReactBootstrap.ListGroup
 var Spinner = ReactBootstrap.Spinner
 var Alert = ReactBootstrap.Alert
