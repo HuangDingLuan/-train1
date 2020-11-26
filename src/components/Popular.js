@@ -6,6 +6,12 @@ import 'lazysizes'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from './Header'
 import RepoCard from './RepoCard'
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
 var ListGroup = ReactBootstrap.ListGroup
 var Spinner = ReactBootstrap.Spinner
 var Alert = ReactBootstrap.Alert
@@ -132,8 +138,13 @@ export default class Popular extends React.Component {
     render() {
         const { cards, loading, error, lang } = this.state
         return (<div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+            {/* <Button>popular</Button>
+            <Button>Battle</Button> */}
+            <Link to='/'>popular</Link>
+            <Link to='/battle'>battle</Link>
             <div className="container">
                 <Header onClick={this.handleNavClick} activeKey={lang}>
+                
                 </Header>
                 <Content>
 
