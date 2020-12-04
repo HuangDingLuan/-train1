@@ -174,10 +174,9 @@ export default class Battle extends React.Component {
                 </Button>
               </div>
             )}
-
-            {}
           </Col>
         </Row>
+        {!value2Show && !value1Show && <Link to="/battleresult">battle</Link>}
       </Container>
     );
   }

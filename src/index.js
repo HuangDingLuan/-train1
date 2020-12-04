@@ -4,6 +4,7 @@ import "./styles/bootstrap.min.css";
 import { HashRouter as Router, Route } from "react-router-dom";
 import Popular from "./components/Popular";
 import Battle from "./pages/Battle";
+import BattleResult from "./pages/battleResult";
 
 const App = () => (
   // {/* <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
@@ -22,6 +23,9 @@ const App = () => (
     </Route>
     <Route exact path="/battle">
       <Battle />
+    </Route>
+    <Route exact path="/battleresult">
+      <BattleResult />
     </Route>
   </Router>
 );

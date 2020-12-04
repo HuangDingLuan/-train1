@@ -30500,34 +30500,21 @@ module.exports = g;
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
-/* harmony import */ var _styles_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/bootstrap.min.css */ "./src/styles/bootstrap.min.css");
-/* harmony import */ var _styles_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
+/* harmony import */ var _styles_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/bootstrap.min.css */ "./src/styles/bootstrap.min.css");
+/* harmony import */ var _styles_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__);
 
 
 
-
-
-var ListGroup = react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["ListGroup"];
-var Spinner = react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Spinner"];
-var Alert = react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Alert"];
-var Container = react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Container"];
-var Nav = react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Nav"];
-var Card = react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Card"];
-var Row = react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Row"];
-var Col = react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Col"];
-var Button = react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Button"];
+var Container = react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Container"];
+var Nav = react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"];
 
 var Header = function Header(props) {
-  var menuItems = ['All', 'Javascript', 'Ruby', 'Java', 'Css', 'Python'];
+  var menuItems = ["All", "Javascript", "Ruby", "Java", "Css", "Python"];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Nav, {
     className: "justify-content-center",
     variant: "pills",
-    activeKey: props.activeKey || 'All',
+    activeKey: props.activeKey || "All",
     onSelect: function onSelect(selectedKey) {
       return props.onClick(selectedKey);
     }
@@ -30576,16 +30563,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_9__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
-/* harmony import */ var _styles_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../styles/bootstrap.min.css */ "./src/styles/bootstrap.min.css");
-/* harmony import */ var _styles_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_styles_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
+/* harmony import */ var _styles_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../styles/bootstrap.min.css */ "./src/styles/bootstrap.min.css");
+/* harmony import */ var _styles_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_styles_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./Header */ "./src/components/Header.js");
 /* harmony import */ var _RepoCard__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./RepoCard */ "./src/components/RepoCard.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 
 
 
@@ -30608,16 +30593,12 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 
 
-
-var ListGroup = react_bootstrap__WEBPACK_IMPORTED_MODULE_13__["ListGroup"];
-var Spinner = react_bootstrap__WEBPACK_IMPORTED_MODULE_13__["Spinner"];
-var Alert = react_bootstrap__WEBPACK_IMPORTED_MODULE_13__["Alert"];
-var Container = react_bootstrap__WEBPACK_IMPORTED_MODULE_13__["Container"];
-var Nav = react_bootstrap__WEBPACK_IMPORTED_MODULE_13__["Nav"];
-var Card = react_bootstrap__WEBPACK_IMPORTED_MODULE_13__["Card"];
-var Row = react_bootstrap__WEBPACK_IMPORTED_MODULE_13__["Row"];
-var Col = react_bootstrap__WEBPACK_IMPORTED_MODULE_13__["Col"];
-var Button = react_bootstrap__WEBPACK_IMPORTED_MODULE_13__["Button"];
+var Spinner = react_bootstrap__WEBPACK_IMPORTED_MODULE_12__["Spinner"];
+var Alert = react_bootstrap__WEBPACK_IMPORTED_MODULE_12__["Alert"];
+var Container = react_bootstrap__WEBPACK_IMPORTED_MODULE_12__["Container"];
+var Row = react_bootstrap__WEBPACK_IMPORTED_MODULE_12__["Row"];
+var Col = react_bootstrap__WEBPACK_IMPORTED_MODULE_12__["Col"];
+var Button = react_bootstrap__WEBPACK_IMPORTED_MODULE_12__["Button"];
 
 var Content = function Content(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(Container, null, props.children));
@@ -30629,17 +30610,17 @@ var Footer = function Footer(props) {
 
 function getQueryVariable(variable) {
   var query = window.location.search.substring(1);
-  var vars = query.split('&');
+  var vars = query.split("&");
 
-  for (var i = 0; i < vars.length; i++) {
-    var pair = vars[i].split('=');
+  for (var i = 0; i < vars.length; i += 1) {
+    var pair = vars[i].split("=");
 
-    if (decodeURIComponent(pair[0]) == variable) {
+    if (decodeURIComponent(pair[0]) === variable) {
       return decodeURIComponent(pair[1]);
     }
   }
 
-  return null; //console.log('Query variable %s not found', variable);
+  return null; // console.log('Query variable %s not found', variable);
 }
 
 var Popular = /*#__PURE__*/function (_React$Component) {
@@ -30668,34 +30649,34 @@ var Popular = /*#__PURE__*/function (_React$Component) {
         while (1) {
           switch (_context.prev = _context.next) {
             case 0:
-              type = _args.length > 0 && _args[0] !== undefined ? _args[0] : 'all';
+              type = _args.length > 0 && _args[0] !== undefined ? _args[0] : "all";
               page = _args.length > 1 && _args[1] !== undefined ? _args[1] : 1;
               pushState = _args.length > 2 && _args[2] !== undefined ? _args[2] : true;
               cards = _this.state.cards;
-              console.log('type', type);
-              url = '';
+              console.log("type", type);
+              url = "";
               _context.t0 = type;
-              _context.next = _context.t0 === 'Javascript' ? 9 : _context.t0 === 'Ruby' ? 11 : _context.t0 === 'Java' ? 13 : _context.t0 === 'Css' ? 15 : 17;
+              _context.next = _context.t0 === "Javascript" ? 9 : _context.t0 === "Ruby" ? 11 : _context.t0 === "Java" ? 13 : _context.t0 === "Css" ? 15 : 17;
               break;
 
             case 9:
-              url = 'https://api.github.com/search/repositories?q=stars:%3E1+language:javascript&sort=stars&order=desc&type=Repositories';
+              url = "https://api.github.com/search/repositories?q=stars:%3E1+language:javascript&sort=stars&order=desc&type=Repositories";
               return _context.abrupt("break", 18);
 
             case 11:
-              url = 'https://api.github.com/search/repositories?q=stars:%3E1+language:ruby&sort=stars&order=desc&type=Repositories';
+              url = "https://api.github.com/search/repositories?q=stars:%3E1+language:ruby&sort=stars&order=desc&type=Repositories";
               return _context.abrupt("break", 18);
 
             case 13:
-              url = 'https://api.github.com/search/repositories?q=stars:%3E1+language:java&sort=stars&order=desc&type=Repositories';
+              url = "https://api.github.com/search/repositories?q=stars:%3E1+language:java&sort=stars&order=desc&type=Repositories";
               return _context.abrupt("break", 18);
 
             case 15:
-              url = 'https://api.github.com/search/repositories?q=stars:%3E1+language:css&sort=stars&order=desc&type=Repositories';
+              url = "https://api.github.com/search/repositories?q=stars:%3E1+language:css&sort=stars&order=desc&type=Repositories";
               return _context.abrupt("break", 18);
 
             case 17:
-              url = 'https://api.github.com/search/repositories?q=stars:%3E1&sort=stars&order=desc&type=Repositories';
+              url = "https://api.github.com/search/repositories?q=stars:%3E1&sort=stars&order=desc&type=Repositories";
 
             case 18:
               url = "".concat(url, "&page=").concat(page, "&per_page=10");
@@ -30712,27 +30693,27 @@ var Popular = /*#__PURE__*/function (_React$Component) {
               }
 
               if (pushState) {
-                window.history.pushState('', '', "?language=".concat(type));
-              } //window.location.search = `?language=${type}`
+                window.history.pushState("", "", "?language=".concat(type));
+              } // window.location.search = `?language=${type}`
 
 
               _this.setState(beforeState);
 
               _context.next = 26;
-              return axios__WEBPACK_IMPORTED_MODULE_12___default.a.get(url);
+              return axios__WEBPACK_IMPORTED_MODULE_11___default.a.get(url);
 
             case 26:
               res = _context.sent;
 
               /* {
-                  headers: {
-                      'Authorization': 'token 23d18f1250269da629df6cdf1243c0203da72d04'
-                  }
-              })*/
-              console.log('res', res.data);
+                        headers: {
+                            'Authorization': 'token 23d18f1250269da629df6cdf1243c0203da72d04'
+                        }
+                    }) */
+              console.log("res", res.data);
               newCards = res.data.items.map(function (item, key) {
                 return {
-                  no: '#' + (page === 1 ? 1 + key : cards.length + 1 + key),
+                  no: "#".concat(page === 1 ? 1 + key : cards.length + 1 + key),
                   img: item.owner.avatar_url,
                   title: item.full_name,
                   author: item.owner.login,
@@ -30744,7 +30725,7 @@ var Popular = /*#__PURE__*/function (_React$Component) {
               });
 
               if (page > 1) {
-                _this.setState(function (state, props) {
+                _this.setState(function (state) {
                   return {
                     cards: [].concat(_babel_runtime_helpers_toConsumableArray__WEBPACK_IMPORTED_MODULE_1___default()(state.cards), _babel_runtime_helpers_toConsumableArray__WEBPACK_IMPORTED_MODULE_1___default()(newCards)),
                     loading: false,
@@ -30788,12 +30769,12 @@ var Popular = /*#__PURE__*/function (_React$Component) {
     });
 
     _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_9___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5___default()(_this), "handlePopState", function (params) {
-      var lang = getQueryVariable('language');
+      var lang = getQueryVariable("language");
 
       _this.handleNavClick(lang, _this.state.page, false);
 
-      console.log('lang', lang);
-      console.log('params', params);
+      console.log("lang", lang);
+      console.log("params", params);
     });
 
     var _cards = [];
@@ -30801,7 +30782,7 @@ var Popular = /*#__PURE__*/function (_React$Component) {
       cards: _cards,
       loading: false,
       error: null,
-      type: 'all',
+      type: "all",
       page: 1
     };
     return _this;
@@ -30810,15 +30791,15 @@ var Popular = /*#__PURE__*/function (_React$Component) {
   _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_4___default()(Popular, [{
     key: "componentDidMount",
     value: function componentDidMount() {
-      var lang = getQueryVariable('language');
+      var lang = getQueryVariable("language");
       this.handleNavClick(lang); //  this.setState({lang})
 
-      window.addEventListener('popstate', this.handlePopState);
+      window.addEventListener("popstate", this.handlePopState);
     }
   }, {
     key: "componentWillUnmount",
     value: function componentWillUnmount() {
-      window.removeEventListener('popstate', this.handlePopState);
+      window.removeEventListener("popstate", this.handlePopState);
     }
   }, {
     key: "render",
@@ -30830,13 +30811,13 @@ var Popular = /*#__PURE__*/function (_React$Component) {
           lang = _this$state2.lang;
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         style: {
-          display: 'flex',
-          flexDirection: 'column',
-          minHeight: '100vh'
+          display: "flex",
+          flexDirection: "column",
+          minHeight: "100vh"
         }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_17__["Link"], {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_14__["Link"], {
         to: "/"
-      }, "popular"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_17__["Link"], {
+      }, "popular"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_14__["Link"], {
         to: "/battle"
       }, "battle"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "container"
@@ -30876,7 +30857,7 @@ var Popular = /*#__PURE__*/function (_React$Component) {
         size: "sm",
         role: "status",
         "aria-hidden": "true"
-      }), " \u52A0\u8F7D\u66F4\u591A"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(Footer, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
+      }), " ", "\u52A0\u8F7D\u66F4\u591A"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement(Footer, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement("div", {
         className: "text-center"
       }, "\u7248\u6743\u6240\u6709 \xA9 \u9EC4\u5B9A\u92AE"))));
     }
@@ -30900,34 +30881,20 @@ var Popular = /*#__PURE__*/function (_React$Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
-/* harmony import */ var _styles_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/bootstrap.min.css */ "./src/styles/bootstrap.min.css");
-/* harmony import */ var _styles_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
+/* harmony import */ var _styles_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/bootstrap.min.css */ "./src/styles/bootstrap.min.css");
+/* harmony import */ var _styles_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__);
 
 
 
-
-
-var ListGroup = react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["ListGroup"];
-var Spinner = react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Spinner"];
-var Alert = react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Alert"];
-var Container = react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Container"];
-var Nav = react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Nav"];
-var Card = react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Card"];
-var Row = react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Row"];
-var Col = react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Col"];
-var Button = react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Button"];
+var Card = react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Card"];
 
 var RepoCard = function RepoCard(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Card, {
     border: "success",
     style: {
-      marginTop: '8px',
-      marginBottom: '8px'
+      marginTop: "8px",
+      marginBottom: "8px"
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Card.Header, {
     className: "text-center"
@@ -30943,22 +30910,22 @@ var RepoCard = function RepoCard(props) {
   }, props.title)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Card.Text, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fa fa-user fa-lg fa-fw",
     style: {
-      color: 'orange'
+      color: "orange"
     }
   }), props.author), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Card.Text, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fa fa-star fa-lg fa-fw",
     style: {
-      color: 'yellow'
+      color: "yellow"
     }
   }), props.stars), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Card.Text, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fa fa-code-fork fa-lg fa-fw",
     style: {
-      color: 'lightblue'
+      color: "lightblue"
     }
   }), props.forks), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Card.Text, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fa fa-warning fa-lg fa-fw",
     style: {
-      color: 'purple'
+      color: "purple"
     }
   }), props.issues)));
 };
@@ -31013,14 +30980,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
-/* harmony import */ var _styles_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles/bootstrap.min.css */ "./src/styles/bootstrap.min.css");
-/* harmony import */ var _styles_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _src_components_Popular__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../src/components/Popular */ "./src/components/Popular.js");
-/* harmony import */ var _pages_Battle__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/Battle */ "./src/pages/Battle.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _styles_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/bootstrap.min.css */ "./src/styles/bootstrap.min.css");
+/* harmony import */ var _styles_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _components_Popular__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Popular */ "./src/components/Popular.js");
+/* harmony import */ var _pages_Battle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/Battle */ "./src/pages/Battle.js");
+/* harmony import */ var _pages_BattleResult__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/BattleResult */ "./src/pages/BattleResult.js");
 
 
 
@@ -31029,17 +30994,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var ListGroup = react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["ListGroup"];
-var Spinner = react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Spinner"];
-var Alert = react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Alert"];
-var Container = react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Container"];
-var Nav = react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Nav"];
-var Card = react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Card"];
-var Row = react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Row"];
-var Col = react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Col"];
-var Button = react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Button"];
-
-var App = function App(props) {
+var App = function App() {
   return (
     /*#__PURE__*/
     // {/* <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
@@ -31049,17 +31004,20 @@ var App = function App(props) {
     // </div>1111*/}
     // <Popular></Popular>
     // </div> */}
-    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["HashRouter"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["Route"], {
+    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["HashRouter"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Route"], {
       exact: true,
       path: "/"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_components_Popular__WEBPACK_IMPORTED_MODULE_5__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["Route"], {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Popular__WEBPACK_IMPORTED_MODULE_4__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Route"], {
       exact: true,
       path: "/battle"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_Battle__WEBPACK_IMPORTED_MODULE_6__["default"], null)))
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_Battle__WEBPACK_IMPORTED_MODULE_5__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Route"], {
+      exact: true,
+      path: "/battleresult"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pages_BattleResult__WEBPACK_IMPORTED_MODULE_6__["default"], null)))
   );
 };
 
-react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(App, null), document.getElementById('container'));
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(App, null), document.getElementById("container"));
 
 /***/ }),
 
@@ -31156,13 +31114,11 @@ var Battle = /*#__PURE__*/function (_React$Component) {
       });
     });
 
-    var cards = [];
     _this.state = {
-      value1: '',
-      value2: '',
+      value1: "",
+      value2: "",
       value1Show: true,
-      value2Show: true,
-      battleShow: false
+      value2Show: true
     };
     return _this;
   }
@@ -31193,25 +31149,25 @@ var Battle = /*#__PURE__*/function (_React$Component) {
       }, "battle"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h3", null, "GAME"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Row"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Enter two Github users"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
         src: _images_pic1_jpg__WEBPACK_IMPORTED_MODULE_10___default.a,
         style: {
-          boxShadow: '0 0 5px 3px #00000042',
-          width: '200px',
-          height: '200px'
+          boxShadow: "0 0 5px 3px #00000042",
+          width: "200px",
+          height: "200px"
         },
         alt: " "
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Battle"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
         src: _images_pic2_jpg__WEBPACK_IMPORTED_MODULE_11___default.a,
         style: {
-          boxShadow: '0 0 5px 3px #00000042',
-          width: '200px',
-          height: '200px'
+          boxShadow: "0 0 5px 3px #00000042",
+          width: "200px",
+          height: "200px"
         },
         alt: " "
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "See the winner"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
         src: _images_pic3_jpg__WEBPACK_IMPORTED_MODULE_12___default.a,
         style: {
-          boxShadow: '0 0 5px 3px #00000042',
-          width: '200px',
-          height: '200px'
+          boxShadow: "0 0 5px 3px #00000042",
+          width: "200px",
+          height: "200px"
         },
         alt: " "
       }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h3", null, "Players"), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Row"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Player One"), value1Show ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["InputGroup"], {
@@ -31232,7 +31188,7 @@ var Battle = /*#__PURE__*/function (_React$Component) {
         alt: " "
       }), value1, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Button"], {
         onClick: function onClick() {
-          _this2.onchangeValue1Show();
+          _this2.onchangeValue1Show(true);
         }
       }, "\xD7"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", null, "Player Two"), value2Show ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["InputGroup"], {
         onChange: function onChange(a) {
@@ -31252,14 +31208,79 @@ var Battle = /*#__PURE__*/function (_React$Component) {
         alt: " "
       }), value2, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Button"], {
         onClick: function onClick() {
-          _this2.onchangeValue2Show();
+          _this2.onchangeValue2Show(true);
         }
-      }, "\xD7")))));
+      }, "\xD7")))), !value2Show && !value1Show && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_9__["Link"], {
+        to: "/battleresult"
+      }, "battle"));
     }
   }]);
 
   return Battle;
 }(react__WEBPACK_IMPORTED_MODULE_7___default.a.Component);
+
+
+
+/***/ }),
+
+/***/ "./src/pages/BattleResult.js":
+/*!***********************************!*\
+  !*** ./src/pages/BattleResult.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return BattleResult; });
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js");
+/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js");
+/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
+
+
+
+
+
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4___default()(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4___default()(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3___default()(this, result); }; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+
+
+
+var BattleResult = /*#__PURE__*/function (_React$Component) {
+  _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_2___default()(BattleResult, _React$Component);
+
+  var _super = _createSuper(BattleResult);
+
+  function BattleResult() {
+    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default()(this, BattleResult);
+
+    return _super.apply(this, arguments);
+  }
+
+  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default()(BattleResult, [{
+    key: "render",
+    value: function render() {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["Container"], {
+        className: "text-center"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h3", null, "\u5728\u5199"));
+    }
+  }]);
+
+  return BattleResult;
+}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
 
 
 
