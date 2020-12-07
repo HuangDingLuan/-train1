@@ -37,8 +37,7 @@ export default class Battle extends React.Component {
   };
 
   render() {
-    const { value1Show, value1 } = this.state;
-    const { value2Show, value2 } = this.state;
+    const { value1Show, value1, value2Show, value2 } = this.state;
 
     return (
       <Container className="text-center">
@@ -176,7 +175,15 @@ export default class Battle extends React.Component {
             )}
           </Col>
         </Row>
-        {!value2Show && !value1Show && <Link to="/battleresult">battle</Link>}
+        {!value2Show && !value1Show && (
+          <Link
+            to={{
+              pathname: `/battle/${value1}&${value2}`
+            }}
+          >
+            battle
+          </Link>
+        )}
       </Container>
     );
   }

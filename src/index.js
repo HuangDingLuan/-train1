@@ -4,7 +4,7 @@ import "./styles/bootstrap.min.css";
 import { HashRouter as Router, Route } from "react-router-dom";
 import Popular from "./components/Popular";
 import Battle from "./pages/Battle";
-import BattleResult from "./pages/battleResult";
+import BattleResult from "./pages/BattleResult";
 
 const App = () => (
   // {/* <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
@@ -17,16 +17,10 @@ const App = () => (
   // <Popular></Popular>
   // </div> */}
   <Router>
-    <Route exact path="/">
-      {/* <Redirect from="/" to="/popular"  /> */}
-      <Popular />
-    </Route>
-    <Route exact path="/battle">
-      <Battle />
-    </Route>
-    <Route exact path="/battleresult">
-      <BattleResult />
-    </Route>
+    <Route exact path="/" component={Popular} />
+    {/* <Redirect from="/" to="/popular"  /> */}
+    <Route exact path="/battle" component={Battle} />
+    <Route path="/battle/:name" component={BattleResult} />
   </Router>
 );
 
