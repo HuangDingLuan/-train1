@@ -41929,7 +41929,7 @@ var Battle = /*#__PURE__*/function (_React$Component) {
         "aria-label": "github username",
         "aria-describedby": "basic-addon2"
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["InputGroup"].Append, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Button"], {
-        disabled: value1 === '',
+        disabled: value1 === "",
         variant: "outline-secondary",
         onClick: function onClick() {
           _this2.onchangeValue1Show(false);
@@ -41950,7 +41950,7 @@ var Battle = /*#__PURE__*/function (_React$Component) {
         "aria-label": "github username",
         "aria-describedby": "basic-addon2"
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["InputGroup"].Append, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Button"], {
-        disabled: value2 === '',
+        disabled: value2 === "",
         variant: "outline-secondary",
         onClick: function onClick() {
           _this2.onchangeValue2Show(false);
