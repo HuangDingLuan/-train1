@@ -107,6 +107,7 @@ export default class Battle extends React.Component {
                 />
                 <InputGroup.Append>
                   <Button
+                    disabled={value1 === ""}
                     variant="outline-secondary"
                     onClick={() => {
                       this.onchangeValue1Show(false);
@@ -148,6 +149,7 @@ export default class Battle extends React.Component {
                 />
                 <InputGroup.Append>
                   <Button
+                    disabled={value2 === ""}
                     variant="outline-secondary"
                     onClick={() => {
                       this.onchangeValue2Show(false);

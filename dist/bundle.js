@@ -41159,8 +41159,8 @@ var RepoCard = function RepoCard(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Card, {
     border: "primary",
     style: {
-      marginTop: '8px',
-      marginBottom: '8px'
+      marginTop: "8px",
+      marginBottom: "8px"
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Card.Header, {
     className: "text-center bg-white font-weight-bold"
@@ -41168,8 +41168,8 @@ var RepoCard = function RepoCard(props) {
     src: props.img,
     className: "lazyload",
     style: {
-      width: '170px',
-      height: '170px'
+      width: "170px",
+      height: "170px"
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Card.Title, {
     className: "text-center"
@@ -41184,28 +41184,28 @@ var RepoCard = function RepoCard(props) {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Card.Text, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
     className: "fa fa-user fa-lg fa-fw",
     style: {
-      color: 'orange'
+      color: "orange"
     }
   }), props.author)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(ListGroupItem, {
     className: "bg-light"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Card.Text, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
     className: "fa fa-star fa-lg fa-fw",
     style: {
-      color: 'yellow'
+      color: "yellow"
     }
   }), props.stars)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(ListGroupItem, {
     className: "bg-light"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Card.Text, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
     className: "fa fa-code-fork fa-lg fa-fw",
     style: {
-      color: 'lightblue'
+      color: "lightblue"
     }
   }), props.forks)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(ListGroupItem, {
     className: "bg-light"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Card.Text, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
     className: "fa fa-warning fa-lg fa-fw",
     style: {
-      color: 'purple'
+      color: "purple"
     }
   }), props.issues)))));
 };
@@ -41929,6 +41929,7 @@ var Battle = /*#__PURE__*/function (_React$Component) {
         "aria-label": "github username",
         "aria-describedby": "basic-addon2"
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["InputGroup"].Append, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Button"], {
+        disabled: value1 === '',
         variant: "outline-secondary",
         onClick: function onClick() {
           _this2.onchangeValue1Show(false);
@@ -41949,6 +41950,7 @@ var Battle = /*#__PURE__*/function (_React$Component) {
         "aria-label": "github username",
         "aria-describedby": "basic-addon2"
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["InputGroup"].Append, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_8__["Button"], {
+        disabled: value2 === '',
         variant: "outline-secondary",
         onClick: function onClick() {
           _this2.onchangeValue2Show(false);
@@ -42003,10 +42005,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _components_Content_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Content.js */ "./src/components/Content.js");
-/* harmony import */ var _components_Card_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Card.js */ "./src/components/Card.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
+/* harmony import */ var _components_Content_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/Content.js */ "./src/components/Content.js");
+/* harmony import */ var _components_Card_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/Card.js */ "./src/components/Card.js");
 
 
 
@@ -42025,7 +42027,7 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 
 
-var Button = react_bootstrap__WEBPACK_IMPORTED_MODULE_12__["Button"];
+var Button = react_bootstrap__WEBPACK_IMPORTED_MODULE_10__["Button"];
 
 var BattleResult = /*#__PURE__*/function (_React$Component) {
   _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4___default()(BattleResult, _React$Component);
@@ -42054,8 +42056,8 @@ var BattleResult = /*#__PURE__*/function (_React$Component) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                value1 = this.props.match.params.name.split('&') && this.props.match.params.name.split('&')[0];
-                value2 = this.props.match.params.name.split('&') && this.props.match.params.name.split('&')[1];
+                value1 = this.props.match.params.name.split("&") && this.props.match.params.name.split("&")[0];
+                value2 = this.props.match.params.name.split("&") && this.props.match.params.name.split("&")[1];
                 _context.next = 4;
                 return axios__WEBPACK_IMPORTED_MODULE_8___default.a.get("https://api.github.com/users/".concat(value1));
 
@@ -42099,23 +42101,23 @@ var BattleResult = /*#__PURE__*/function (_React$Component) {
       var _this$state = this.state,
           win = _this$state.win,
           loser = _this$state.loser;
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Content_js__WEBPACK_IMPORTED_MODULE_9__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("ul", {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Content_js__WEBPACK_IMPORTED_MODULE_11__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("ul", {
         className: "text-left"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         align: "left"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_11__["Link"], {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_9__["Link"], {
         to: "/"
       }, "popular")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
         align: "left"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_11__["Link"], {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_9__["Link"], {
         to: "/battle"
       }, "battle"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         style: {
-          display: 'flex',
-          justifyContent: 'space-around'
+          display: "flex",
+          justifyContent: "space-around"
         }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Card_js__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        no: 'win',
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Card_js__WEBPACK_IMPORTED_MODULE_12__["default"], {
+        no: "win",
         img: win.avatar_url,
         title: win.login,
         author: win.author,
@@ -42123,8 +42125,8 @@ var BattleResult = /*#__PURE__*/function (_React$Component) {
         forks: win.forks,
         issues: win.issues,
         url: win.url
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Card_js__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        no: 'loser',
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Card_js__WEBPACK_IMPORTED_MODULE_12__["default"], {
+        no: "loser",
         img: loser.avatar_url,
         title: loser.login,
         author: loser.author,
@@ -42134,14 +42136,14 @@ var BattleResult = /*#__PURE__*/function (_React$Component) {
         url: loser.url
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         style: {
-          display: 'flex',
-          justifyContent: 'center',
-          marginTop: '50px'
+          display: "flex",
+          justifyContent: "center",
+          marginTop: "50px"
         }
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Button, {
         style: {
-          width: '120px',
-          height: '40px'
+          width: "120px",
+          height: "40px"
         }
       }, "Battle")));
     }
